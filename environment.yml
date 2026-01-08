@@ -1,0 +1,21 @@
+name: sam3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dowhy=0.8
+  - graphviz
+  - jupyter
+  - jupyterlab
+  - matplotlib=3.10
+  - networkx
+  - numpy=2.2
+  - pip
+  - pandas=2.3
+  - polars=1.32
+  - python=3.12
+  - scikit-learn=1.7
+  - scipy=1.16
+  - shap=0.48
+  - statsmodels=0.14
+  - xgboost=3.0
