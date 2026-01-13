@@ -170,14 +170,13 @@ class DataProcess:
 
         # Save to csv
         self.pathway_simulation_parameters = df
-        self.pathway_simulation_parameters.to_csv(
-            'data_for_sim.csv', index=False)
+        self.pathway_simulation_parameters.to_csv('./data/data_for_sim.csv', index=False)
         
         # Save stroke teams to csv
         df = pd.DataFrame()
         df['stroke_team'] = stroke_team
         df.sort_values(by=['stroke_team'], inplace=True)
-        df.to_csv('.stroke_teams.csv', index=False)
+        df.to_csv('./data/stroke_teams.csv', index=False)
 
 
     def create_ml_data(self):
@@ -251,7 +250,7 @@ class DataProcess:
             frac=1, random_state=42).reset_index(drop=True)
 
         # Save complete data
-        self.ml_data.to_csv('complete_ml_data.csv', index=False)
+        self.ml_data.to_csv('./data/complete_ml_data.csv', index=False)
 
         # Print lengths of output
         len_all = len(self.full_data)
