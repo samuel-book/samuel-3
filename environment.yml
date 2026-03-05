@@ -21,3 +21,5 @@ dependencies:
   - shap=0.48
   - statsmodels=0.14
   - xgboost=3.0
+  - pip:
+    - econml
