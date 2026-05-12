@@ -4,6 +4,7 @@ _build/
 data/
 **/data/
 temp/
+test/
 working/
 
 # Ignore file types that may contain data or models
