@@ -1,14 +1,18 @@
 _build/
 
 # Folders to ignore
+archive/
+Archive/
 data/
+Data/
 **/data/
+**/Data
 temp/
-Temp
+Temp/
 test/
-Test
+Test/
 working/
-Working
+Working/
 wip/
 WIP/
 
