@@ -39,3 +39,6 @@ WIP/
 
 # Ignore cache files (stored in this folder)
 **/__pycache__/
+
+# Ignore insync files
+*.insyncdl
