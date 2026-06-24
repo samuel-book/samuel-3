@@ -11,6 +11,7 @@ temp/
 Temp/
 test/
 Test/
+.vscode/
 working/
 Working/
 wip/
