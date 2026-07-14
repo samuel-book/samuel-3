@@ -1,0 +1,89 @@
+Columns,Data field requested,Transformation
+TeamName,First admitting stroke team,
+AgeUnder40,Age on arrival,5 year age band
+Age40to44,Age on arrival,5 year age band
+Age45to49,Age on arrival,5 year age band
+Age50to54,Age on arrival,5 year age band
+Age55to59,Age on arrival,5 year age band
+Age60to64,Age on arrival,5 year age band
+Age65to69,Age on arrival,5 year age band
+Age70to74,Age on arrival,5 year age band
+Age75to79,Age on arrival,5 year age band
+Age80to84,Age on arrival,5 year age band
+Age85to89,Age on arrival,5 year age band
+AgeOver90,Age on arrival,5 year age band
+S01Gender,Gender,
+Ethnicity_White,Ethnicity,"Ethnicity will be restricted to five categories of 1) all white, 2) Asian, 3) African/Caribbean/Black, 4) Other, or ‘not known’ 5) Mixed"
+Ethnicity_Asian,Ethnicity,"Ethnicity will be restricted to five categories of 1) all white, 2) Asian, 3) African/Caribbean/Black, 4) Other, or ‘not known’ 5) Mixed"
+Ethnicity_Black,Ethnicity,"Ethnicity will be restricted to five categories of 1) all white, 2) Asian, 3) African/Caribbean/Black, 4) Other, or ‘not known’ 5) Mixed"
+Ethnicity_Mixed,Ethnicity,"Ethnicity will be restricted to five categories of 1) all white, 2) Asian, 3) African/Caribbean/Black, 4) Other, or ‘not known’ 5) Mixed"
+Ethnicity_Other_NK,Ethnicity,"Ethnicity will be restricted to five categories of 1) all white, 2) Asian, 3) African/Caribbean/Black, 4) Other, or ‘not known’ 5) Mixed"
+S01OnsetInHospital,Was stroke onset in hospital (Y/N),
+OnsettoFirstArrivalMinutes,Onset time/date,"Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+S01OnsetDateType,Onset time/date,"Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+S01OnsetTimeType,Onset time/date,"Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+S01ArriveByAmbulance,Arrive by ambulance (Y/N),
+FirstArrivalMonthYear,Arrival date/time,"Limit to year, day of week and 4 hour arrival epoch (e.g. 4am-8am)."
+FirstArrivalWeekday,Arrival date/time,"Limit to year, day of week and 4 hour arrival epoch (e.g. 4am-8am)."
+FirstArrivalTime,Arrival date/time,"Limit to year, day of week and 4 hour arrival epoch (e.g. 4am-8am)."
+S02CoMCongestiveHeartFailure,"Congestive heart failure (existing diagnosis, or new diagnosis on admission)",
+S02CoMHypertension,Hypertension,
+S02CoMAtrialFibrillation,Atrial Fibrillation,
+S02NewAFDiagnosis,Atrial Fibrillation,
+S02CoMDiabetes,Diabetes,
+S02CoMStrokeTIA,Previos stroke/TIA,
+S02CoMDementia,Dementia,
+S02CoMAFAntiplatelet,Antiplatelet use,
+S02CoMAFAnticoagulent,Anticoagulant use (and type),
+S02CoMAFAnticoagulentVitK,Anticoagulant use (and type),
+S02CoMAFAnticoagulentDOAC,Anticoagulant use (and type),
+S02CoMAFAnticoagulentHeparin,Anticoagulant use (and type),
+S02INR,Blood clotting rate (INR),
+S02INRHigh,Blood clotting rate (INR),
+S02INRNK,Blood clotting rate (INR),
+S02NihssArrival,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalLoc,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalLocQuestions,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalLocCommands,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalBestGaze,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalVisual,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalFacialPalsy,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalMotorArmLeft,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalMotorArmRight,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalMotorLegLeft,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalMotorLegRight,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalLimbAtaxia,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalSensory,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalBestLanguage,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalDysarthria,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+S02NihssArrivalExtinctionInattention,"Stroke severity (NIHSS) on arrival, with breakdown of scores (e.g. level of consciousness, motor arm left, etc)",
+ArrivaltoBrainImagingMinutes,Brain imaging data/time,
+S02StrokeType,Stroke type: Ischaemic or haemorrhage,
+S02Thrombolysis,Use of thrombolysis (Y/N),
+ArrivaltoThrombolysisMinutes,Thrombolysis date/time,Time (minutes) relative to arrival at first stroke team
+S02ThrombolysisCerebralHaemorrhage,Thrombolysis-induced cerebral haemorrhage (Y/N),
+S02Nihss24Hrs,Stroke severity score (NIHSS) at 24 hours after treatment,
+ArrivaltoIAIReferralMinutes,Date/time for referral for thrombectomy,Time (minutes) relative to arrival at first stroke team
+S02IAIAspects,AI ASPECTS score (assess extent of brain injury),
+S02IAI,Thrombectomy (Y/N),
+ArrivaltoArterialPunctureMinutes,Date/time of thrombectomy,Time (minutes) relative to arrival at first stroke team
+ArrivaltoRefAmbulanceDepartMinutes,Transfer (for thrombectomy) ambulance departure date/time,Time (minutes) relative to arrival at first stroke team
+S02IAIPerfusionImaging,Did patient receive analysis of perfusion imaging to assess salvageable brain tissue (Y/N),
+S07DischargeType,Discharge (from last stroke team) date and type,
+ArrivalToDeathDays,Discharge (from last stroke team) date and type,Time (minutes) relative to arrival at first stroke team
+ArrivalToHospitalDischargeDays,Discharge (from last stroke team) date and type,Time (minutes) relative to arrival at first stroke team
+S07StrokeUnitDeath,"Discharge type(s): death, early supported discharge, discharge to care home, community rehab",
+S07CareHomeDischarge,"Discharge type(s): death, early supported discharge, discharge to care home, community rehab",
+S07CareHomeDischargeType,"Discharge type(s): death, early supported discharge, discharge to care home, community rehab",
+S07HomeDischargeType,"Discharge type(s): death, early supported discharge, discharge to care home, community rehab",
+S07DischargedEsdmt,"Discharge type(s): death, early supported discharge, discharge to care home, community rehab",
+S07DischargedMcrt,"Discharge type(s): death, early supported discharge, discharge to care home, community rehab",
+S07RankinDischarge,Modified Rankin scale on discharge,
+S07AdlHelp,Did patient need help with personal activities of daily living at discharge?,
+CallConnectedtoArrivalMinutes,"Ambulance times: time of call, time of arrival on scene, time of departure from scene, time of arrival at hospital","Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+ArrivalPatientLocationtoArrivalMinutes,"Ambulance times: time of call, time of arrival on scene, time of departure from scene, time of arrival at hospital","Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+DeparturePatientLocationtoArrivalMinutes,"Ambulance times: time of call, time of arrival on scene, time of departure from scene, time of arrival at hospital","Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+WheelsStoptoArrivalMinutes,"Ambulance times: time of call, time of arrival on scene, time of departure from scene, time of arrival at hospital","Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+MobileDatatoArrivalMinutes,"Ambulance times: time of call, time of arrival on scene, time of departure from scene, time of arrival at hospital","Time (minutes) relative to arrival at first stroke team, or report ‘not known’"
+S02AspectsScore,ASPECTS score (assess extent of brain injury),
+S02LVOInfarction,Stroke type: ischaemic large vessel occlusion,
