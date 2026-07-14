@@ -1,0 +1,29 @@
+name: sam3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - geopandas
+  - graphviz
+  - jupyter
+  - jupyterlab
+  - lightgbm=4.6
+  - matplotlib
+  - networkx
+  - numpy
+  - pip
+  - pandas
+  - python=3.12
+  - seaborn
+  - scikit-learn
+  - scipy
+  - shap=0.48
+  - statsmodels
+  - xgboost=2.1
+  - pip:
+    - causal-learn==0.1.4.7
+    - cryptpandas
+    - contextily
+    - econml==0.16.0
+    - dowhy==0.14
+    - simpy
