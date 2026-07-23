@@ -23,6 +23,7 @@ WIP/
 *.csv
 *.xlsx
 *.txt
+*.pdf
 
 # Ignore images
 *.png
