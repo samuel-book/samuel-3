@@ -36,6 +36,7 @@ def create_stroke_data(n=1000, seed=42):
                 * Adds 0.05 for male patients.
                 * Adds 0.01 for each NIHSS point.
                 * Adds 0.10 for Black patients and 0.05 for Asian patients.
+                * Adds 0.10 if the patient was treated in the year 2020 (e.g. COVID-19 effect).
                 * The sum is clipped to [0.001, 0.999] to prevent mathematical errors.
                 * The probability is then converted to odds and log-odds.
 
@@ -83,6 +84,9 @@ def create_stroke_data(n=1000, seed=42):
     # --- Noise variables (no causal role) ---
     shoe_size = np.random.triangular(5, 9, 13, size=n).astype(int)
 
+    # set year as uniformly distributed between 2018 and 2024
+    year = np.random.randint(2018, 2025, size=n)
+
     # --- NIHSS stroke severity (triangular distribution, 0–30, mode 10) ---
     nihss = np.random.triangular(0, 10, 30, size=n).astype(int)
 
@@ -93,6 +97,9 @@ def create_stroke_data(n=1000, seed=42):
     mortality_prob_no_treatment += nihss * 0.01
     mortality_prob_no_treatment[ethnicity == 'black'] += 0.1
     mortality_prob_no_treatment[ethnicity == 'asian'] += 0.05
+
+    # Add 0.1 if year is 2020
+    mortality_prob_no_treatment[year == 2020] += 0.1
 
     # Clip the mortality probabilities to ensure they are between 0 and 1
     mortality_prob_no_treatment = np.clip(mortality_prob_no_treatment, 0.001, 0.999)
@@ -168,6 +175,7 @@ def create_stroke_data(n=1000, seed=42):
     # --- DataFrame ---
     df = pd.DataFrame({
         "patient_id": np.arange(1, n + 1),
+        "year": year,
         "age": age,
         "ethnicity": ethnicity,
         "male": male,
