@@ -24,3 +24,4 @@ dependencies:
     - econml==0.16.0
     - dowhy==0.14
     - gcastle==1.0.4
+    - torch==2.13.0
