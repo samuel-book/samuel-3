@@ -6,7 +6,9 @@ Archive/
 data/
 Data/
 **/data/
-**/Data
+**/Data/
+**/output/
+**/Output/
 temp/
 Temp/
 test/
