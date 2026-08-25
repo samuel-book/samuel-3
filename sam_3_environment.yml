@@ -17,6 +17,7 @@ dependencies:
   - scipy
   - shap=0.48
   - statsmodels
+  - tabulate
   - xgboost=2.1
   - pip:
     - causal-learn==0.1.4.7
