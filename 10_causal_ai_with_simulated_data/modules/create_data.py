@@ -30,7 +30,7 @@ def create_stroke_data(n=1000, seed=42):
                 * Age: Uniformly distributed between 60 and 89.
                 * Ethnicity: Randomly assigned as White (70%), Asian (20%), or Black (10%).
                 * Sex (Male): Binomial distribution (50% probability).
-                * AFib (Diagnosis): Binomial distribution (20% probability).
+                * AFib (Diagnosis): Binomial distribution (25% probability if at least age 70).
                 * Warfarin Use: Binomial distribution (50% probability among AFib patients).
                 * NIHSS (Stroke Severity): Triangular distribution (min=0, mode=10, max=30).
                   * Add 5 to NIHSS if age > 80 to simulate higher stroke severity in older patients.
@@ -85,8 +85,9 @@ def create_stroke_data(n=1000, seed=42):
 
     male = np.random.binomial(1, 0.50, size=n)
 
-    # --- AFib (Diagnosis) (20% prevalence) ---
-    afib = np.random.binomial(1, 0.20, size=n)
+    # --- AFib (Diagnosis) (25% prevalence if at least age 70) ---
+    afib = np.random.binomial(1, 0.25, size=n)
+    afib[age < 70] = 0
 
     # --- Warfarin (50% of AFib patients are on warfarin) ---
     warfarin = np.zeros(n, dtype=int)
