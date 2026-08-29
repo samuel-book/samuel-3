@@ -1,3 +1,7 @@
+# ToDo
+
+# Have AFib diagnosts, 50% on warfarin, 50% not on warfarin
+
 # Function to create synthetic stroke data with causal treatment effect size
 
 import numpy as np
@@ -26,14 +30,17 @@ def create_stroke_data(n=1000, seed=42):
                 * Age: Uniformly distributed between 60 and 89.
                 * Ethnicity: Randomly assigned as White (70%), Asian (20%), or Black (10%).
                 * Sex (Male): Binomial distribution (50% probability).
-                * Warfarin Use: Binomial distribution (20% probability).
+                * AFib (Diagnosis): Binomial distribution (20% probability).
+                * Warfarin Use: Binomial distribution (50% probability among AFib patients).
                 * NIHSS (Stroke Severity): Triangular distribution (min=0, mode=10, max=30).
+                  * Add 5 to NIHSS if age > 80 to simulate higher stroke severity in older patients.
                 * Shoe Size (Noise): Triangular distribution (min=5, mode=9, max=13).
 
             2. Base Mortality Probability (Without Treatment)
                 * Starts at a base probability of 0.05.
                 * Adds 0.005 for every year of age over 60.
                 * Adds 0.05 for male patients.
+                * Add 0.02 for patients with AFib.
                 * Adds 0.01 for each NIHSS point.
                 * Adds 0.10 for Black patients and 0.05 for Asian patients.
                 * Adds 0.10 if the patient was treated in the year 2020 (e.g. COVID-19 effect).
@@ -78,8 +85,14 @@ def create_stroke_data(n=1000, seed=42):
 
     male = np.random.binomial(1, 0.50, size=n)
 
-    # --- Warfarin (20% prevalence) ---
-    warfarin = np.random.binomial(1, 0.20, size=n)
+    # --- AFib (Diagnosis) (20% prevalence) ---
+    afib = np.random.binomial(1, 0.20, size=n)
+
+    # --- Warfarin (50% of AFib patients are on warfarin) ---
+    warfarin = np.zeros(n, dtype=int)
+    afib_indices = np.where(afib == 1)[0]
+    warfarin_indices = np.random.choice(afib_indices, size=int(len(afib_indices) * 0.5), replace=False)
+    warfarin[warfarin_indices] = 1
 
     # --- Noise variables (no causal role) ---
     shoe_size = np.random.triangular(5, 9, 13, size=n).astype(int)
@@ -89,11 +102,13 @@ def create_stroke_data(n=1000, seed=42):
 
     # --- NIHSS stroke severity (triangular distribution, 0–30, mode 10) ---
     nihss = np.random.triangular(0, 10, 30, size=n).astype(int)
-
+    nihss[age >= 80] += 5
+    
     # --- Mortality probability without treatment ---
     mortality_prob_no_treatment = np.full(n, 0.05)
     mortality_prob_no_treatment += (age - 60) * 0.005
     mortality_prob_no_treatment[male == 1] += 0.05
+    mortality_prob_no_treatment[afib == 1] += 0.02
     mortality_prob_no_treatment += nihss * 0.01
     mortality_prob_no_treatment[ethnicity == 'black'] += 0.1
     mortality_prob_no_treatment[ethnicity == 'asian'] += 0.05
@@ -179,6 +194,7 @@ def create_stroke_data(n=1000, seed=42):
         "age": age,
         "ethnicity": ethnicity,
         "male": male,
+        "afib": afib,
         "warfarin": warfarin,
         "shoe_size": shoe_size,
         "nihss": nihss,
