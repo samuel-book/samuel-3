@@ -27,4 +27,5 @@ dependencies:
     - gcastle==1.0.4
     - lightgbm==4.6.0
     - miceforest==6.0.5
+    - optuna
     - torch==2.13.0
