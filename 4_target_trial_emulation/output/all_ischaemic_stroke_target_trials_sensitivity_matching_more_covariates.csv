@@ -1,0 +1,40 @@
+group_id,group_name,n_treated,n_matched,pct_treated_matched
+1,NIHSS 1-5: IVT early,12954,12939,99.9
+2,NIHSS 1-5: IVT late,1441,1440,99.9
+3,NIHSS 1-5: IVT late (perfusion),0,0,
+4,NIHSS 6-10: IVT early,13620,13518,99.3
+5,NIHSS 6-10: IVT late,1478,1471,99.5
+6,NIHSS 6-10: IVT late (perfusion),0,0,
+7,NIHSS 11-15: IVT early,6289,6071,96.5
+8,NIHSS 11-15: IVT late,643,626,97.4
+9,NIHSS 11-15: IVT late (perfusion),0,0,
+10,NIHSS 11-15: MT early,281,271,96.4
+11,NIHSS 11-15: MT late,946,898,94.9
+12,NIHSS 11-15: MT late (perfusion),428,415,97.0
+13,NIHSS 11-15: IVT early + MT early,596,589,98.8
+14,NIHSS 11-15: IVT early + MT late,694,684,98.6
+15,NIHSS 11-15: IVT early + MT late (perfusion),179,176,98.3
+16,NIHSS 11-15: IVT late + MT late,117,114,97.4
+17,NIHSS 11-15: IVT late + MT late (perfusion),65,63,96.9
+18,NIHSS 16-20: IVT early,4563,4344,95.2
+19,NIHSS 16-20: IVT late,396,381,96.2
+20,NIHSS 16-20: IVT late (perfusion),0,0,
+21,NIHSS 16-20: MT early,410,362,88.3
+22,NIHSS 16-20: MT late,1070,992,92.7
+23,NIHSS 16-20: MT late (perfusion),492,466,94.7
+24,NIHSS 16-20: IVT early + MT early,914,895,97.9
+25,NIHSS 16-20: IVT early + MT late,882,857,97.2
+26,NIHSS 16-20: IVT early + MT late (perfusion),232,225,97.0
+27,NIHSS 16-20: IVT late + MT late,137,136,99.3
+28,NIHSS 16-20: IVT late + MT late (perfusion),58,55,94.8
+29,NIHSS 21-25: IVT early,2870,2693,93.8
+30,NIHSS 21-25: IVT late,220,207,94.1
+31,NIHSS 21-25: IVT late (perfusion),0,0,
+32,NIHSS 21-25: MT early,341,296,86.8
+33,NIHSS 21-25: MT late,705,630,89.4
+34,NIHSS 21-25: MT late (perfusion),267,250,93.6
+35,NIHSS 21-25: IVT early + MT early,657,625,95.1
+36,NIHSS 21-25: IVT early + MT late,503,490,97.4
+37,NIHSS 21-25: IVT early + MT late (perfusion),121,117,96.7
+38,NIHSS 21-25: IVT late + MT late,83,81,97.6
+39,NIHSS 21-25: IVT late + MT late (perfusion),51,51,100.0

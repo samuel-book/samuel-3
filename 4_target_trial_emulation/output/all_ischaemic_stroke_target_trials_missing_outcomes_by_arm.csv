@@ -1,0 +1,8 @@
+,n_patients,n_patients,n_missing,n_missing
+arm,treated,untreated,treated,untreated
+outcome,,,,
+death,54637,54637,0,0
+discharge_destination,54637,54637,1,2
+discharge_disability,54637,54637,0,0
+length_of_stay,54637,54637,4,6
+outcome_target,54637,54637,0,0

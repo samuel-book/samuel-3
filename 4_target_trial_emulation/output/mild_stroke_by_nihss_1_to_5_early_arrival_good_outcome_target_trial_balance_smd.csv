@@ -1,0 +1,9 @@
+,NIHSS 1,NIHSS 2,NIHSS 3,NIHSS 4,NIHSS 5,NIHSS 1-5
+prior_disability,0.0,0.0,0.0,0.0,0.0,0.0
+stroke_severity,0.0,0.0,0.0,0.0,0.0,0.0
+age,0.0,0.0,0.0,0.0,0.0,0.0
+afib_anticoagulant,0.0,0.0,0.0,0.0,0.0,0.0
+any_afib_diagnosis,0.0,0.0,0.0,0.0,0.0,0.0
+congestive_heart_failure,-0.037,-0.018,-0.03,0.006,-0.001,-0.009
+hypertension,-0.028,-0.06,-0.033,-0.062,-0.037,-0.046
+diabetes,-0.074,-0.104,-0.088,-0.103,-0.029,-0.075

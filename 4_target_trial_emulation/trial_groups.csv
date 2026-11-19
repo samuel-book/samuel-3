@@ -1,0 +1,40 @@
+Group ID,Group name,NIHSS Min,NIHSS Max,IVT<= 270,IVT>270,MT<=270,MT>270,Perfusion imaging
+1,NIHSS 1-5: IVT early,1,5,1,0,0,0,0
+2,NIHSS 1-5: IVT late,1,5,0,1,0,0,0
+3,NIHSS 1-5: IVT late (perfusion),1,5,0,1,0,0,1
+4,NIHSS 6-10: IVT early,6,10,1,0,0,0,0
+5,NIHSS 6-10: IVT late,6,10,0,1,0,0,0
+6,NIHSS 6-10: IVT late (perfusion),6,10,0,1,0,0,1
+7,NIHSS 11-15: IVT early,11,15,1,0,0,0,0
+8,NIHSS 11-15: IVT late,11,15,0,1,0,0,0
+9,NIHSS 11-15: IVT late (perfusion),11,15,0,1,0,0,1
+10,NIHSS 11-15: MT early,11,15,0,0,1,0,0
+11,NIHSS 11-15: MT late,11,15,0,0,0,1,0
+12,NIHSS 11-15: MT late (perfusion),11,15,0,0,0,1,1
+13,NIHSS 11-15: IVT early + MT early,11,15,1,0,1,0,0
+14,NIHSS 11-15: IVT early + MT late,11,15,1,0,0,1,0
+15,NIHSS 11-15: IVT early + MT late (perfusion),11,15,1,0,0,1,1
+16,NIHSS 11-15: IVT late + MT late,11,15,0,1,0,1,0
+17,NIHSS 11-15: IVT late + MT late (perfusion),11,15,0,1,0,1,1
+18,NIHSS 16-20: IVT early,16,20,1,0,0,0,0
+19,NIHSS 16-20: IVT late,16,20,0,1,0,0,0
+20,NIHSS 16-20: IVT late (perfusion),16,20,0,1,0,0,1
+21,NIHSS 16-20: MT early,16,20,0,0,1,0,0
+22,NIHSS 16-20: MT late,16,20,0,0,0,1,0
+23,NIHSS 16-20: MT late (perfusion),16,20,0,0,0,1,1
+24,NIHSS 16-20: IVT early + MT early,16,20,1,0,1,0,0
+25,NIHSS 16-20: IVT early + MT late,16,20,1,0,0,1,0
+26,NIHSS 16-20: IVT early + MT late (perfusion),16,20,1,0,0,1,1
+27,NIHSS 16-20: IVT late + MT late,16,20,0,1,0,1,0
+28,NIHSS 16-20: IVT late + MT late (perfusion),16,20,0,1,0,1,1
+29,NIHSS 21-25: IVT early,21,25,1,0,0,0,0
+30,NIHSS 21-25: IVT late,21,25,0,1,0,0,0
+31,NIHSS 21-25: IVT late (perfusion),21,25,0,1,0,0,1
+32,NIHSS 21-25: MT early,21,25,0,0,1,0,0
+33,NIHSS 21-25: MT late,21,25,0,0,0,1,0
+34,NIHSS 21-25: MT late (perfusion),21,25,0,0,0,1,1
+35,NIHSS 21-25: IVT early + MT early,21,25,1,0,1,0,0
+36,NIHSS 21-25: IVT early + MT late,21,25,1,0,0,1,0
+37,NIHSS 21-25: IVT early + MT late (perfusion),21,25,1,0,0,1,1
+38,NIHSS 21-25: IVT late + MT late,21,25,0,1,0,1,0
+39,NIHSS 21-25: IVT late + MT late (perfusion),21,25,0,1,0,1,1

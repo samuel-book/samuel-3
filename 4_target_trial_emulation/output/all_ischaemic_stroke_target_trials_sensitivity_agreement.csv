@@ -1,0 +1,17 @@
+scenario,outcome,groups,same_direction,significant_primary,significant_sensitivity,median_change
+Exact NIHSS,outcome_target,34,33,27,25,0.16734734739213586
+Exact NIHSS,death,34,33,21,19,-0.346370606764358
+Exact NIHSS,discharge_disability,34,32,30,30,-0.014554176991263296
+More covariates,outcome_target,34,33,27,24,-0.3434876435629306
+More covariates,death,34,33,21,18,-0.1351754635730874
+More covariates,discharge_disability,34,32,30,27,0.017975369325204917
+Known onset,outcome_target,34,32,27,22,-1.2217057093369093
+Known onset,death,34,32,21,17,0.4608649822912194
+Known onset,discharge_disability,34,33,30,28,0.04540859204097758
+LVO (MT groups),outcome_target,24,23,18,10,6.477168395134633
+LVO (MT groups),death,24,24,15,6,-6.722480106100796
+LVO (MT groups),discharge_disability,24,23,21,18,-0.3625554837139944
+Landmark 1 day,outcome_target,34,34,27,27,0.07815967189388928
+Landmark 1 day,death,34,34,21,21,-0.060439106083836514
+Landmark 1 day,discharge_disability,34,34,30,30,-0.0028393817890186024
+Survivors,length_of_stay,34,31,14,19,-4.610395128347223
