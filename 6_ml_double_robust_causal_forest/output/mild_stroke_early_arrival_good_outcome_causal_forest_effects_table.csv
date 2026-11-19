@@ -1,0 +1,5 @@
+treatment_group,n treated,"ATT, % points (95% CI)","ATE, % points (95% CI)",% of cohort with P(window) < 0.01,"Mean CATE in treated, % points"
+All (≤360 min),13380,"5.0 (4.0, 6.0)",-,,5.0
+<180 min,7390,"6.3 (5.1, 7.6)","4.1 (2.3, 5.8)",14.4,6.4
+180-270 min,5514,"3.5 (2.1, 4.8)","2.1 (0.1, 4.1)",13.6,3.5
+270-360 min,476,"1.8 (-2.1, 5.6)",-,77.2,2.1

@@ -1,0 +1,12 @@
+n_remaining,excluded_reason,n_excluded
+452863,,0
+438589,no discharge mRS recorded,14274
+384365,not ischaemic stroke,54224
+163932,"arrived 6 hours or more after onset, or onset time unknown",220433
+161607,perfusion imaging used,2325
+77938,NIHSS 0 to 5 without a recorded LVO,83669
+75535,stroke team gave fewer than 10 MTs in this cohort,2403
+75514,IVT recorded after MT,21
+75124,MT 12 hours or more after onset,390
+74678,IVT 6 hours or more after onset,446
+74611,missing data for a model feature,67

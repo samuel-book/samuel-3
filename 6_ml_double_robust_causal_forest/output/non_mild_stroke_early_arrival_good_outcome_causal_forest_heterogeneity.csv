@@ -1,0 +1,85 @@
+characteristic,treatment_group,band,mean,count
+NIHSS,early_both,≤10,0.14633554849874134,365
+NIHSS,early_both,11-15,0.20104149512587544,475
+NIHSS,early_both,16-20,0.1739956334414265,755
+NIHSS,early_both,>20,0.14974428363017658,711
+NIHSS,early_thrombectomy_only,≤10,0.0802989711899935,150
+NIHSS,early_thrombectomy_only,11-15,0.13861497244700557,226
+NIHSS,early_thrombectomy_only,16-20,0.13068048495482482,336
+NIHSS,early_thrombectomy_only,>20,0.12946066097022416,395
+NIHSS,early_thrombolysis_late_thrombectomy,≤10,0.02243581461315859,543
+NIHSS,early_thrombolysis_late_thrombectomy,11-15,0.09600339119123709,668
+NIHSS,early_thrombolysis_late_thrombectomy,16-20,0.10125576189916682,840
+NIHSS,early_thrombolysis_late_thrombectomy,>20,0.08913810831520542,663
+NIHSS,early_thrombolysis_only,≤10,0.08322337153394412,13391
+NIHSS,early_thrombolysis_only,11-15,0.12583602152297432,6090
+NIHSS,early_thrombolysis_only,16-20,0.11291863873875255,4387
+NIHSS,early_thrombolysis_only,>20,0.09271440007079476,3803
+NIHSS,late_both,≤10,0.02018517414760948,38
+NIHSS,late_both,11-15,0.1789356312442817,44
+NIHSS,late_both,16-20,0.23643379470092832,30
+NIHSS,late_both,>20,0.11494045142473484,29
+NIHSS,late_thrombectomy_only,≤10,0.04662401859043508,406
+NIHSS,late_thrombectomy_only,11-15,0.059257967323730176,464
+NIHSS,late_thrombectomy_only,16-20,0.10290664474452817,543
+NIHSS,late_thrombectomy_only,>20,0.0839937545382224,463
+NIHSS,late_thrombolysis_only,≤10,0.07012960168365819,622
+NIHSS,late_thrombolysis_only,11-15,0.12618544432629492,279
+NIHSS,late_thrombolysis_only,16-20,0.09162888815631955,150
+NIHSS,late_thrombolysis_only,>20,0.0599805597823956,137
+Age,early_both,<60,0.14148861218393882,531
+Age,early_both,60-69,0.20479836769259657,528
+Age,early_both,70-79,0.1856901320950302,700
+Age,early_both,80+,0.1345974971596745,548
+Age,early_thrombectomy_only,<60,0.11141970459948947,192
+Age,early_thrombectomy_only,60-69,0.16411649748120857,210
+Age,early_thrombectomy_only,70-79,0.11989340229410354,317
+Age,early_thrombectomy_only,80+,0.1148303536035963,388
+Age,early_thrombolysis_late_thrombectomy,<60,0.059785528325701554,597
+Age,early_thrombolysis_late_thrombectomy,60-69,0.1097970594180623,569
+Age,early_thrombolysis_late_thrombectomy,70-79,0.08271350095582951,814
+Age,early_thrombolysis_late_thrombectomy,80+,0.07489242705940914,734
+Age,early_thrombolysis_only,<60,0.10633575565296174,4402
+Age,early_thrombolysis_only,60-69,0.12037106344206884,4729
+Age,early_thrombolysis_only,70-79,0.10757904695374242,7687
+Age,early_thrombolysis_only,80+,0.0796409479322154,10857
+Age,late_both,<60,0.09633391856458093,28
+Age,late_both,60-69,0.20063413114819573,34
+Age,late_both,70-79,0.08160100932354725,49
+Age,late_both,80+,0.18497105630006594,30
+Age,late_thrombectomy_only,<60,0.05777085649683527,352
+Age,late_thrombectomy_only,60-69,0.08380274935977584,338
+Age,late_thrombectomy_only,70-79,0.0877589132920362,580
+Age,late_thrombectomy_only,80+,0.0686990500883366,606
+Age,late_thrombolysis_only,<60,0.08806732308821563,192
+Age,late_thrombolysis_only,60-69,0.1119724911268223,224
+Age,late_thrombolysis_only,70-79,0.11096460436209236,331
+Age,late_thrombolysis_only,80+,0.050151080666998846,442
+Pre-stroke mRS,early_both,0,0.1782739799184594,1591
+Pre-stroke mRS,early_both,1,0.15355845707536236,500
+Pre-stroke mRS,early_both,2,0.12062905098917961,172
+Pre-stroke mRS,early_both,3-5,0.13284510825673554,44
+Pre-stroke mRS,early_thrombectomy_only,0,0.12684873703781935,544
+Pre-stroke mRS,early_thrombectomy_only,1,0.1316134039541725,347
+Pre-stroke mRS,early_thrombectomy_only,2,0.10704364632451888,167
+Pre-stroke mRS,early_thrombectomy_only,3-5,0.11970572291256582,49
+Pre-stroke mRS,early_thrombolysis_late_thrombectomy,0,0.08291314810735709,1930
+Pre-stroke mRS,early_thrombolysis_late_thrombectomy,1,0.07714480308222907,530
+Pre-stroke mRS,early_thrombolysis_late_thrombectomy,2,0.07784738931237548,197
+Pre-stroke mRS,early_thrombolysis_late_thrombectomy,3-5,0.07405721550270596,57
+Pre-stroke mRS,early_thrombolysis_only,0,0.10937086770887876,14723
+Pre-stroke mRS,early_thrombolysis_only,1,0.09713353858333718,5021
+Pre-stroke mRS,early_thrombolysis_only,2,0.08621870181019323,2824
+Pre-stroke mRS,early_thrombolysis_only,3-5,0.07587434200482049,5107
+Pre-stroke mRS,late_both,0,0.20868385305573114,92
+Pre-stroke mRS,late_both,1,0.022734976867816052,38
+Pre-stroke mRS,late_both,2,-0.017972394899135852,8
+Pre-stroke mRS,late_both,3-5,-0.2841910394028245,3
+Pre-stroke mRS,late_thrombectomy_only,0,0.07644289142573381,1061
+Pre-stroke mRS,late_thrombectomy_only,1,0.07188782134980684,541
+Pre-stroke mRS,late_thrombectomy_only,2,0.07384423122476029,207
+Pre-stroke mRS,late_thrombectomy_only,3-5,0.08820134055117558,67
+Pre-stroke mRS,late_thrombolysis_only,0,0.10961440627256933,633
+Pre-stroke mRS,late_thrombolysis_only,1,0.052016599931106855,233
+Pre-stroke mRS,late_thrombolysis_only,2,0.044870876005952645,131
+Pre-stroke mRS,late_thrombolysis_only,3-5,0.07032788558722704,192
