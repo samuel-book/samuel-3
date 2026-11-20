@@ -14,4 +14,28 @@ LVO (MT groups),discharge_disability,24,23,21,18,-0.3625554837139944
 Landmark 1 day,outcome_target,34,34,27,27,0.07815967189388928
 Landmark 1 day,death,34,34,21,21,-0.060439106083836514
 Landmark 1 day,discharge_disability,34,34,30,30,-0.0028393817890186024
+Controls reused up to 3 times,outcome_target,34,34,27,27,0.0
+Controls reused up to 3 times,death,34,34,21,21,0.0
+Controls reused up to 3 times,discharge_disability,34,34,30,30,0.0
+Unlimited control reuse,outcome_target,34,34,27,27,0.0
+Unlimited control reuse,death,34,34,21,21,0.0
+Unlimited control reuse,discharge_disability,34,34,30,30,0.0
+Cut-off 240 min,outcome_target,34,33,27,25,0.30446228676797027
+Cut-off 240 min,death,34,34,21,23,-0.15477664056859414
+Cut-off 240 min,discharge_disability,34,32,30,30,-0.018245986335188813
+Cut-off 300 min,outcome_target,34,33,27,24,-1.0365023715534947
+Cut-off 300 min,death,34,32,21,17,0.24255380869794818
+Cut-off 300 min,discharge_disability,34,33,30,27,0.011929597212914977
+Teams with at least 10 MTs,outcome_target,34,34,27,24,-0.37763802930489376
+Teams with at least 10 MTs,death,34,33,21,18,0.5127488648271044
+Teams with at least 10 MTs,discharge_disability,34,33,30,30,0.014687831459019467
+Outcome: mRS 0-2 only,outcome_target,34,34,27,27,-0.0937207122774133
+Outcome: mRS 0-1 or no worse than pre-stroke,outcome_target,34,33,27,21,-5.38793103448276
+Outcome: mRS 0-3 or no worse than pre-stroke,outcome_target,34,33,27,27,3.242231128046778
+Without age,outcome_target,34,34,27,25,1.1227528038552386
+Without age,death,34,33,21,24,-1.653777708368279
+Without age,discharge_disability,34,33,30,29,-0.08017996983957049
+Without pre-stroke mRS,outcome_target,34,33,27,19,-4.298788538984617
+Without pre-stroke mRS,death,34,33,21,20,-0.6345789398092486
+Without pre-stroke mRS,discharge_disability,34,32,30,30,-0.1603732550947303
 Survivors,length_of_stay,34,31,14,19,-4.610395128347223
