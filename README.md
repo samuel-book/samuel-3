@@ -68,10 +68,6 @@ jupyter lab
 
 Main packages: pandas, NumPy, scikit-learn, XGBoost, LightGBM, SHAP, statsmodels, EconML, DoWhy, causal-learn, gCastle, miceforest, Optuna, PyTorch, Graphviz and NetworkX.
 
-## Related work
-
-SAMueL-3 follows earlier Stroke Audit Machine Learning projects; see the [samuel-book](https://github.com/samuel-book) GitHub organisation.
-
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
