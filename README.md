@@ -24,7 +24,7 @@ The same questions are answered with complementary methods, so that results can 
 | S-learner | `5_ml_s_learner/` | A single outcome model with treatment as a feature; effects estimated by switching treatment on and off |
 | Doubly robust causal forest | `6_ml_double_robust_causal_forest/` | Heterogeneous treatment effects using EconML |
 
-A written description of the causal methods is in [`methods/samuel_3_causal_methods_description.pdf`](methods/samuel_3_causal_methods_description.pdf).
+A written description of the causal methods is in [`methods/samuel_3_causal_methods_description.pdf`](methods/samuel_3_causal_methods_description.pdf). A plain-language glossary of the terms and abbreviations used is in [`methods/causal_methods_glossary.md`](methods/causal_methods_glossary.md).
 
 ## Repository structure
 
@@ -37,7 +37,7 @@ A written description of the causal methods is in [`methods/samuel_3_causal_meth
 | `5_ml_s_learner/` | S-learner analyses for non-mild stroke (IVT and MT) and mild stroke (IVT) |
 | `6_ml_double_robust_causal_forest/` | Doubly robust causal forest analyses for non-mild stroke (IVT and MT) and mild stroke (IVT) |
 | `9_DAGs/` | Directed acyclic graph (DAG) of the key determinants of thrombolysis use and outcome, drawn with Graphviz |
-| `methods/` | Methods description (PDF) |
+| `methods/` | Methods description (PDF) and glossary (Markdown) |
 | `data/` | Input data (SSNAP-derived datasets and SSNAP annual reports); see *Data* below |
 | `output/` | Shared outputs |
 
