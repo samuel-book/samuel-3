@@ -43,12 +43,17 @@ A written description of the causal methods is in [`methods/samuel_3_causal_meth
 
 ### Target trial emulation notebooks
 
-| Notebook | Question |
-|---|---|
-| `01_non_mild_thrombolysis_thrombectomy_target_trial_good_outcome.ipynb` | IVT and MT strategies in non-mild stroke arriving within 6 hours (exact matching) |
-| `01a_non_mild_thrombolysis_thrombectomy_target_trial_non_exact_good_outcome.ipynb` | As above, with non-exact matching |
-| `02_mild_thrombolysis_by_nihss_1_to_5_target_trial_good_outcome.ipynb` | Thrombolysis in mild stroke (NIHSS 1–5) arriving within 4 hours, by individual NIHSS score |
-| `03_target_trials_all_patients_treatments.ipynb` | IVT and MT across all stroke severities: good outcome, death, length of stay and discharge disability, with sensitivity analyses |
+- **IVT and MT strategies in non-mild stroke arriving within 6 hours (exact matching)**  
+  [`01_non_mild_thrombolysis_thrombectomy_target_trial_good_outcome.ipynb`](4_target_trial_emulation/01_non_mild_thrombolysis_thrombectomy_target_trial_good_outcome.ipynb)
+
+- **IVT and MT strategies in non-mild stroke arriving within 6 hours (non-exact matching)**  
+  [`01a_non_mild_thrombolysis_thrombectomy_target_trial_non_exact_good_outcome.ipynb`](4_target_trial_emulation/01a_non_mild_thrombolysis_thrombectomy_target_trial_non_exact_good_outcome.ipynb)
+
+- **Thrombolysis in mild stroke (NIHSS 1–5) arriving within 4 hours, by individual NIHSS score**  
+  [`02_mild_thrombolysis_by_nihss_1_to_5_target_trial_good_outcome.ipynb`](4_target_trial_emulation/02_mild_thrombolysis_by_nihss_1_to_5_target_trial_good_outcome.ipynb)
+
+- **IVT and MT across all stroke severities: good outcome, death, length of stay and discharge disability, with sensitivity analyses**  
+  [`03_target_trials_all_patients_treatments.ipynb`](4_target_trial_emulation/03_target_trials_all_patients_treatments.ipynb)
 
 Notebooks are numbered in the order they are intended to be run within each folder.
 
