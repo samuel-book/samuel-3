@@ -90,10 +90,6 @@ A written description of the causal methods ([PDF](methods/samuel_3_causal_metho
 
 Input data: SSNAP-derived datasets (`sam2/`, `sam3/`) and SSNAP annual reports. The patient-level data come from the Sentinel Stroke National Audit Programme (SSNAP) and are not publicly available; access is through the data controller, the Healthcare Quality Improvement Partnership (HQIP). Some files are read with `cryptpandas` (encrypted DataFrames), which needs the corresponding password.
 
-### `output/`
-
-Shared outputs.
-
 ## Setting up the environment
 
 The conda environment is defined in `sam_3_environment.yml` (Python 3.12):
