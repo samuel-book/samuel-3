@@ -75,11 +75,11 @@ kx, ky = 0.04, 0.20
 axk = fig.add_axes([kx, ky, 0.14, 0.16]); axk.set_xlim(0, 4); axk.set_ylim(0, 3); axk.axis("off")
 stickman(axk, 0.4, 2.2, True, 1.4); axk.text(0.9, 2.2, "Recovers\nwell", va="center", fontsize=11, color=INK)
 stickman(axk, 0.4, 0.7, False, 1.4); axk.text(0.9, 0.7, "Does not\nrecover well", va="center", fontsize=11, color=INK)
-fig.text(0.02, 0.03, f"Illustrative figures, assuming {int(BASELINE*100)} in 100 recover well with no treatment.",
+fig.text(0.02, 0.03, f"Illustrative figures, based on S-Learner predictions.",
          fontsize=10, color=MUTED)
 
 fig.savefig("stickmen_scenarios.png", facecolor=SURF)
-fig.savefig("stickmen_scenarios.svg", facecolor=SURF)
+#fig.savefig("stickmen_scenarios.svg", facecolor=SURF)
 for key in LOR:
     print(key, {t: n_good(v) for t, v in LOR[key].items()})
 print("none", n_good(0))
