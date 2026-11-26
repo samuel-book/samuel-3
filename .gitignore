@@ -46,3 +46,6 @@ WIP/
 
 # Ignore insync files
 *.insyncdl
+
+# Ignore claude prompts
+prompts.md
